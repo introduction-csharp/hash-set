@@ -1,6 +1,6 @@
-﻿namespace HashTable.Lib
+﻿namespace HashSet.Lib
 {
-    public interface IHashTable<T> 
+    public interface IHashSet<T> 
         where T : SPSStudent, IEquatable<T>
     {
         T Add(T value);
